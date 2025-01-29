@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, session
 from wallet import create_wallet, get_balance
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Ensure to have a secret key for sessions
+app.secret_key = 'ac961dafeec55d08a258ccbae2c4cebf5cbcc3ca7632e19d636982b87ca7462c'  # Ensure to have a secret key for sessions
 
 @app.route('/')
 def index():
